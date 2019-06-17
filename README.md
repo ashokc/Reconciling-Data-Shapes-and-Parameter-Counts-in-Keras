@@ -6,7 +6,7 @@ This is the source code to go along with the blog article
 
 Formulae for trainable parameter counts and data shapes are developed for the convolutional and pooling layers in Keras as functions of layer parameters and input characteristics. The results are then reconciled with what Keras reports upon running the models such as the [Visual question answering model](https://keras.io/getting-started/functional-api-guide/#visual-question-answering-model)
 
-Convolutional layers transform the shape of an input matrix/image based on a number of parameters the layer is instantiated with. Here is a summary of what happens when a Conv2D layer is input an image.
+Convolutional layers transform the shape of an input matrix/image based on a number of parameters the layer is instantiated with. Here is a summary of what happens when a Conv2D layer is input an image (Keras 2.2.4 and TensorFlow 1.13.1)
 
 ![CNN Image Conversion](./images/cnn-image-conversion.jpg "Image massaging by CNN")
 
