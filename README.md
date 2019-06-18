@@ -2,7 +2,7 @@
 
 This is the source code to go along with the blog article
 
-[Reconciling Data Shapes and Parameter Counts in Keras](http://xplordat.com/2019/06/06/flowing-tensors-and-heaping-parameters-in-deep-learning/)
+[Reconciling Data Shapes and Parameter Counts in Keras](http://xplordat.com/2019/06/18/reconciling-data-shapes-and-parameter-counts-in-keras/)
 
 Formulae for trainable parameter counts and data shapes are developed for the convolutional and pooling layers in Keras as functions of layer parameters and input characteristics. The results are then reconciled with what Keras reports upon running the models such as the [Visual question answering model](https://keras.io/getting-started/functional-api-guide/#visual-question-answering-model)
 
